@@ -1,0 +1,13 @@
+{
+  "name": "web-audit-lab",
+  "private": true,
+  "type": "module",
+  "description": "Локальный учебный стенд к практикуму по аудиту безопасности веб-приложений. Содержит только защитные реализации и тесты.",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
